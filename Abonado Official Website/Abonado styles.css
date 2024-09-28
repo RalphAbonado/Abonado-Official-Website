@@ -1,0 +1,263 @@
+
+h1 {
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,9,121,1) 69%, rgba(0,212,255,1) 100%);
+    -webkit-text-fill-color: aliceblue;
+    border-style: solid;
+    border-color: #093879;
+    position: relative;
+    
+
+}
+p {
+  
+    text-justify: inter-word;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,9,121,1) 69%, rgba(0,212,255,1) 100%);
+    -webkit-text-fill-color: white;
+    text-align: justify;
+    text-indent:4%;
+    font-size: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-style: solid;
+    border-color: #093879;
+    position: relative;
+    
+}
+body {
+    background: #27282c;
+    margin-right: 0%;
+    margin-left: 0%;
+
+    
+}
+
+a {
+    position: relative;
+    top: 0.3em;
+    background: rgb(0, 28, 36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    -webkit-text-fill-color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 5px 15px;
+    transition: 0.5s;
+    
+
+
+    
+}
+a:hover {
+    letter-spacing: 0.25em;
+    background: var(--clr);
+    color: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+}
+a:before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+}
+a span{
+    position: relative;
+    z-index: 1
+}
+a i{
+    position: absolute;
+    inset: 0;
+    display: block;
+}   
+a i::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 80%;
+    width: 10px;
+    height: 4px;
+    background: #27282c;
+    transform: translateX(-50%) skewX(325deg);
+    transition: 0.5s;
+}
+a:hover i::before{
+    width: 20px;
+    left: 20%;
+
+}
+a i::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 80%;
+    width: 10px;
+    height: 4px;
+    background: #27282c;
+    transform: translateX(-50%) skewX(325deg);
+    transition: 0.5s;
+}
+a:hover i::after{
+    width: 20px;
+    left: 80%;
+}
+
+.btnhm {
+    position: relative;
+    bottom: 10em;
+    top: 37em;
+    left: 0.5em;
+   
+    background: rgb(0, 28, 36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    -webkit-text-fill-color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 5px 15px;
+    transition: 0.5s;
+}
+
+a .btnhm:hover {
+    letter-spacing: 0.25em;
+    background: var(--clr);
+    color: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+}
+a .btnhm :before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+}
+a .btnhm span{
+    position: relative;
+    z-index: 1
+}
+a .btnhm i{
+    position: absolute;
+    inset: 0;
+    display: block;
+}   
+a .btnhm i::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0.5em;
+    width: 10px;
+    height: 4px;
+    background: #27282c;
+    transform: translateX(-50%) skewX(325deg);
+    transition: 0.5s;
+}
+a .btnhm:hover i::before{
+    width: 20px;
+    left: 20%;
+
+}
+a .btnhm i::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 80%;
+    width: 10px;
+    height: 4px;
+    background: #27282c;
+    transform: translateX(-50%) skewX(325deg);
+    transition: 0.5s;
+}
+a .btnhm :hover i::after{
+    width: 20px;
+    left: 80%;
+}
+
+
+
+
+
+
+a .btnpoverty {
+    position: relative;
+    top: 0.3em;
+    background: rgb(0, 28, 36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    -webkit-text-fill-color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 5px 15px;
+    transition: 0.5s;
+
+
+    
+}
+a .btnpoverty :hover {
+    letter-spacing: 0.25em;
+    background: var(--clr);
+    color: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+}
+a .btnpoverty :before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+}
+a .btnpoverty span{
+    position: relative;
+    z-index: 1
+}
+a .btnpoverty i{
+    position: absolute;
+    inset: 0;
+    display: block;
+}   
+a .btnpoverty i::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 80%;
+    width: 10px;
+    height: 4px;
+    background: #27282c;
+    transform: translateX(-50%) skewX(325deg);
+    transition: 0.5s;
+}
+a .btnpoverty:hover i::before{
+    width: 20px;
+    left: 20%;
+
+}
+a .btnpoverty i::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 80%;
+    width: 10px;
+    height: 4px;
+    background: #27282c;
+    transform: translateX(-50%) skewX(325deg);
+    transition: 0.5s;
+}
+a .btnpoverty :hover i::after{
+    width: 20px;
+    left: 80%;
+}
+
+
+
+
+
