@@ -4,14 +4,10 @@ h1 {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,9,121,1) 69%, rgba(0,212,255,1) 100%);
     -webkit-text-fill-color: aliceblue;
-    border-style: solid;
-    border-color: #093879;
     position: relative;
-    
-
 }
+
 p {
-  
     text-justify: inter-word;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,9,121,1) 69%, rgba(0,212,255,1) 100%);
@@ -21,17 +17,72 @@ p {
     font-size: 20px;
     padding-left: 3%;
     padding-right: 3%;
-    border-style: solid;
-    border-color: #093879;
     position: relative;
+}
+
+.povdef {
+    text-justify: inter-word;
+    background: none;
+    -webkit-text-fill-color: white;
+    text-align: justify;
+    text-indent:4%;
+    font-size: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    position: relative;
+    margin-right: 30em;
+}
+
+.pvrtfx {
+   text-align: justify;
+   text-indent: 4%;
+   margin-right: 30em;
+   background: none;
+   padding: 1em 0.5em 1em 0.5em;
+   border-style: dashed;
+   border-color:#000;
+}
+.prvntpvrty {
+    text-align: center;
+    text-indent: 4%;
+}
+li::marker{
+    color: white;
+}
+.prvntlst{
+    text-align: center;
+    text-indent: 4%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,9,121,1) 69%, rgba(0,212,255,1) 100%);
+    -webkit-text-fill-color: white;
+}
+.cntrs{
+    text-align: justify;
+    text-indent: 4%;
+    background: none;
+    padding: 1em 0.5em 1em 0.5em;
+    border-style: dashed;
+    border-color:#000;
+    -webkit-text-fill-color: white;
+    margin-right: 34em;
     
+}
+.ee {
+    text-align: justify;
+    text-indent: 4%;
+    font-size: 18px;
+    background:none;
+    -webkit-text-fill-color: white;
+    margin-right: 544px;
+    padding: 1em 2em 1em 0.5em;
+    border-style: dashed;
+    border-color:#000;
 }
 
 
 body {
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,40,44,1) 0%, rgba(4,146,199,1) 100%);
-
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,9,121,1) 22%, rgba(0,212,255,1) 100%);
     margin-right: 0%;
     margin-left: 0%;
 
@@ -52,10 +103,6 @@ a {
     font-weight: 400;
     padding: 5px 15px;
     transition: 0.5s;
-    
-
-
-    
 }
 a:hover {
     letter-spacing: 0.25em;
@@ -132,9 +179,6 @@ a .btnpoverty {
     font-weight: 400;
     padding: 5px 15px;
     transition: 0.5s;
-
-
-    
 }
 a .btnpoverty :hover {
     letter-spacing: 0.25em;
@@ -253,3 +297,12 @@ a .btnpoverty :hover i::after{
     color: #000;
     font-weight: bold;
   }
+
+
+
+
+
+
+
+
+  
