@@ -1,17 +1,18 @@
 
 h1 {
     text-align: center;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,9,121,1) 69%, rgba(0,212,255,1) 100%);
-    -webkit-text-fill-color: aliceblue;
+    background-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-color:rgb(8, 62, 77);
+    -webkit-text-fill-color: rgb(0, 0, 0);
     position: relative;
+    
 }
 
 p {
     text-justify: inter-word;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,9,121,1) 69%, rgba(0,212,255,1) 100%);
-    -webkit-text-fill-color: white;
+   
+    -webkit-text-fill-color: black;
     text-align: justify;
     text-indent:4%;
     font-size: 20px;
@@ -23,14 +24,21 @@ p {
 .povdef {
     text-justify: inter-word;
     background: none;
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: black;
     text-align: justify;
     text-indent:4%;
     font-size: 20px;
     padding-left: 3%;
     padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     position: relative;
     margin-right: 30em;
+    border-style: dashed;
+    border-color:rgb(8, 62, 77);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5% ;
+   
 }
 
 .pvrtfx {
@@ -41,10 +49,14 @@ p {
    padding: 1em 0.5em 1em 0.5em;
    border-style: dashed;
    border-color:#000;
+   background-color: rgba(255, 255, 255, 1);
+    border-radius: 5% ;
 }
 .prvntpvrty {
     text-align: center;
     text-indent: 4%;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5% ;
 }
 li::marker{
     color: white;
@@ -52,9 +64,11 @@ li::marker{
 .prvntlst{
     text-align: center;
     text-indent: 4%;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,9,121,1) 69%, rgba(0,212,255,1) 100%);
-    -webkit-text-fill-color: white;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5% ;
+    -webkit-text-fill-color: black;
+    margin-right: 40em;
+
 }
 .cntrs{
     text-align: justify;
@@ -63,8 +77,13 @@ li::marker{
     padding: 1em 0.5em 1em 0.5em;
     border-style: dashed;
     border-color:#000;
-    -webkit-text-fill-color: white;
     margin-right: 34em;
+    text-align: center;
+    text-indent: 4%;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5% ;
+    -webkit-text-fill-color: black;
+    margin-right: 40em;
     
 }
 .ee {
@@ -72,26 +91,42 @@ li::marker{
     text-indent: 4%;
     font-size: 18px;
     background:none;
-    -webkit-text-fill-color: white;
-    margin-right: 544px;
+    -webkit-text-fill-color: black;
     padding: 1em 2em 1em 0.5em;
     border-style: dashed;
     border-color:#000;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5% ;
+    margin-left: 40em;
+    position: relative;
+    top: -15em;
 }
 
 
 body {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,9,121,1) 22%, rgba(0,212,255,1) 100%);
+    background-color: #27282c;
     margin-right: 0%;
     margin-left: 0%;
+    margin-top: 0%;
 
     
 }
+.derek{
+    background-color: #27282c;
+    height: 2.5em;
 
+}
+.mice{
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 50%;
+    margin-bottom: 2%;
+    
+}
 a {
     position: relative;
-    top: 0.3em;
+    top: 1.5em;
+    left: 6em;
     background: rgb(0, 28, 36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,9,121,1) 35%, rgba(0,212,255,1) 100%);
     color: white;
@@ -103,6 +138,9 @@ a {
     font-weight: 400;
     padding: 5px 15px;
     transition: 0.5s;
+    margin-left: 2px;
+    
+    
 }
 a:hover {
     letter-spacing: 0.25em;
@@ -298,6 +336,30 @@ a .btnpoverty :hover i::after{
     font-weight: bold;
   }
 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+.skibidi {
+    width: 35em;
+    height: 16em;
+    position:relative;
+    left: 48em;
+    bottom: 24.8em;
+    border-style: solid;
+    border-color: rgb(0,212,255,1);
+    box-shadow: 0 0 35px var(--clr);
+}
 
 
 
