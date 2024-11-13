@@ -361,6 +361,81 @@ a .btnpoverty :hover i::after{
     box-shadow: 0 0 35px var(--clr);
 }
 
+.lovermen{
+    border-color: rgb(0,212,255,1);
+    box-shadow: 0 0 35px var(--clr);
+    background-color: rgb(0,212,255,1);
+    position: relative;
+    top: 14em;
+    padding: 1em 2em 1em 2em;
+
+}
+
+.lovermen {
+
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    cursor: pointer;
+    position: relative;
+    top: 28em;
+    right: -55em;
+    
+    
+    z-index: 0;
+    border-radius: 12px;
+  }
+  .lovermen::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+  /* glow */
+  .lovermen::before {
+    content: "";
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height:  calc(100% + 4px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 0;
+  }
+  
+  @keyframes glowing {
+    0% {background-position: 0 0;}
+    50% {background-position: 400% 0;}
+    100% {background-position: 0 0;}
+  }
+  
+  /* hover */
+  .lovermen:hover::before {
+    opacity: 1;
+  }
+  
+  .lovermen:active:after {
+    background: transparent;
+  }
+  
+  .lovermen:active {
+    color: #000;
+    font-weight: bold;
+  }
+
+
 
 
 
