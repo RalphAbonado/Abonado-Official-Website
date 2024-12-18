@@ -10,7 +10,7 @@ h1 {
 
 p {
     text-justify: inter-word;
-   
+    padding-bottom: 2%;
     -webkit-text-fill-color: black;
     text-align: justify;
     text-indent:4%;
@@ -40,12 +40,7 @@ p {
     
    
 }
-.videoo{
-    position: relative;
-    left: 50em;
-    bottom: 23em;
-    border-style: solid;
-}
+
 .pvrtfx {
    text-align: justify;
    text-indent: 4%;
@@ -106,36 +101,54 @@ li::marker{
     position: relative;
     top: -15em;
 }
-
+.sprite{
+  background: url(icon.png) no-repeat -182px -91px;
+  width: 33px;
+  height: 33px;
+}
+.semantics{
+  position: relative;
+  top: 10em;
+  left: 10px;
+}
 
 body {
-    background-color: #27282c;
+    /*applies to all pages*/
+    background-image: url(poorboy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-right: 0%;
     margin-left: 0%;
     margin-top: 0%;
+    
+    
 
     
 }
 .derek{
-    background-color: #27282c;
-    height: 2.5em;
+    
+    height: 4em;
 
 }
-.pvrty3eee{
-    position:relative;
-    left: 50em;
-    bottom: 26.6em;
+.pvrty2{
+  height: 278px;
+  position: relative;
+  left: 53em;
+  bottom: 28em;
+  border: 2px solid black;
 }
-
-.pvrty3ee{
-    height: 20%;
-    width: 23%;
-    position:relative;
-
+.pvrty3{
+  height: 278px;
+  position: relative;
+  left: 57em;
+  bottom: 7em;
+  border: 2px solid black;
 }
 .videooo1{
-    position:relative;
-    top: 10%;
+  position:relative;
+  left: 50em;
+  bottom: 29em;
+  border: 2px solid black;
 }
 .mice{
     background-color: rgba(255, 255, 255, 1);
@@ -144,10 +157,7 @@ body {
     margin-bottom: 2%;
     
 }
-.videooo{
-    position:relative;
-    top: 1em;
-}
+
 a {
     position: relative;
     top: 1.5em;
@@ -386,142 +396,8 @@ a .btnpoverty :hover i::after{
     box-shadow: 0 0 35px var(--clr);
 }
 
-.lovermen{
-    border-color: rgb(0,212,255,1);
-    box-shadow: 0 0 35px var(--clr);
-    background-color: rgb(0,212,255,1);
-    position: relative;
-    top: 14em;
-    padding: 1em 2em 1em 2em;
 
-}
 
-.lovermen {
 
-    padding: 10px 35px;
-    border: none;
-    outline: none;
-    color: #FFF;
-    cursor: pointer;
-    position: relative;
-    top: 28em;
-    right: -60em;
-    
-    
-    z-index: 0;
-    border-radius: 12px;
-  }
-  .lovermen::after {
-    content: "";
-    z-index: -1;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #333;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-  }
-  /* glow */
-  .lovermen::before {
-    content: "";
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    background-size: 600%;
-    z-index: -1;
-    width: calc(100% + 4px);
-    height:  calc(100% + 4px);
-    filter: blur(8px);
-    animation: glowing 20s linear infinite;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-    opacity: 0;
-  }
-  
-  @keyframes glowing {
-    0% {background-position: 0 0;}
-    50% {background-position: 400% 0;}
-    100% {background-position: 0 0;}
-  }
-  
-  /* hover */
-  .lovermen:hover::before {
-    opacity: 1;
-  }
-  
-  .lovermen:active:after {
-    background: transparent;
-  }
-  
-  .lovermen:active {
-    color: #000;
-    font-weight: bold;
-  }
-
-  .lovermenn {
-
-    padding: 10px 35px;
-    border: none;
-    outline: none;
-    color: #FFF;
-    cursor: pointer;
-    position: relative;
-    top: 2em;
-    right: -60em;
-    
-    
-    z-index: 0;
-    border-radius: 12px;
-  }
-  .lovermenn::after {
-    content: "";
-    z-index: -1;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #333;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-  }
-  /* glow */
-  .lovermenn::before {
-    content: "";
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    background-size: 600%;
-    z-index: -1;
-    width: calc(100% + 4px);
-    height:  calc(100% + 4px);
-    filter: blur(8px);
-    animation: glowing 20s linear infinite;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-    opacity: 0;
-  }
-  
-  @keyframes glowing {
-    0% {background-position: 0 0;}
-    50% {background-position: 400% 0;}
-    100% {background-position: 0 0;}
-  }
-  
-  /* hover */
-  .lovermenn:hover::before {
-    opacity: 1;
-  }
-  
-  .lovermenn:active:after {
-    background: transparent;
-  }
-  
-  .lovermenn:active {
-    color: #000;
-    font-weight: bold;
-  }
 
 
